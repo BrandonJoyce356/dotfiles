@@ -61,3 +61,6 @@ cp auto_switch_theme.py ~/Library/Application\ Support/iTerm2/Scripts/AutoLaunch
 brew tap homebrew/cask-fonts
 brew install font-hack-nerd-font
 
+# enable holding letter keys to repeat
+defaults write -g ApplePressAndHoldEnabled -bool false
+
